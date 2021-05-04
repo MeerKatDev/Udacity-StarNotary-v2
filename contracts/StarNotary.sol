@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.1;
 
-import "/Users/pro/Udacity/Blockchain/star_notary_v2/app/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
-// import "@nomiclabs/buidler/console.sol";
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+
 
 contract StarNotary is ERC721 {
 
